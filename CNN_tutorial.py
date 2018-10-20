@@ -41,6 +41,7 @@ model.add(Flatten())
 model.add(Dense(512, activation='relu', kernel_constraint=maxnorm(3)))
 model.add(Dropout(0.5))
 model.add(Dense(num_classes, activation='softmax'))
+
 # Compile model
 epochs = 25
 lrate = 0.01
@@ -51,6 +52,7 @@ print(model.summary())
 
 # Fit the model
 model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=epochs, batch_size=32)
+
 # Final evaluation of the model
 scores = model.evaluate(X_test, y_test, verbose=0)
 print("Accuracy: %.2f%%" % (scores[1]*100))
