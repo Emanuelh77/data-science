@@ -45,7 +45,7 @@ def greeting(sentence):
 def response(user_response):
     robo_response = ''
     sent_tokens.append(user_response)
-    TfidfVec = TfidfVectorizer(tokenizer=lem_normalize, stop_words='english')
+    TfidfVec = TfidfVectorizer(tokenizer=lem_normalize)
     tfidf = TfidfVec.fit_transform(sent_tokens)
     vals = cosine_similarity(tfidf[-1], tfidf)
     idx = vals.argsort()[0][-2]
