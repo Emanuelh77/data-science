@@ -1,0 +1,40 @@
+{
+  "Response": "True",
+  "Language": "English, French",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+  "Year": 2010,
+  "Website": "http://www.thesocialnetwork-movie.com/",
+  "Actors": "Jesse Eisenberg, Rooney Mara, Bryan Barter, Dustin Fitzsimons",
+  "Runtime": "120 min",
+  "Title": "The Social Network",
+  "Writer": "Aaron Sorkin (screenplay), Ben Mezrich (book)",
+  "BoxOffice": "$96,400,000",
+  "Country": "USA",
+  "DVD": "11 Jan 2011",
+  "Plot": "Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea, and the co-founder who was later squeezed out of the business.",
+  "Rated": "PG-13",
+  "Type": "movie",
+  "Awards": "Won 3 Oscars. Another 165 wins & 168 nominations.",
+  "Genre": "Biography, Drama",
+  "imdbRating": 7.7,
+  "imdbID": "tt1285016",
+  "Ratings": [
+    {
+      "Value": "7.7/10",
+      "Source": "Internet Movie Database"
+    },
+    {
+      "Value": "95%",
+      "Source": "Rotten Tomatoes"
+    },
+    {
+      "Value": "95/100",
+      "Source": "Metacritic"
+    }
+  ],
+  "Director": "David Fincher",
+  "Metascore": 95,
+  "Production": "Columbia Pictures",
+  "Released": "01 Oct 2010",
+  "imdbVotes": "556,761"
+}
